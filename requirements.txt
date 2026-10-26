@@ -1,0 +1,10 @@
+# QuantumPoissonReadout -- reproduces every table and figure of the paper.
+#   python -m pip install -r requirements.txt
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.7
+qiskit>=1.0
+pyqsp>=0.2
+# the isometry U_V and its gate-level arithmetic (companion papers)
+multiplexed_state_preparation @ git+https://github.com/UW-ERSL/MultiplexedStatePreparation
+quantuminversionpoisson @ git+https://github.com/UW-ERSL/QuantumInversionPoisson
